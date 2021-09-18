@@ -1,3 +1,17 @@
+# Resource provision
+
+```bash
+
+    git clone https://github.com/FourTimes/demo-proect.git
+    cd demo-proect
+    cd _terraform
+
+    # befor the u have to assign the access and secret key in provider.tf
+    terraform init
+    terraform plan -var-file=production.tfvars
+    terraform apply -var-file=production.tfvars -auto-approve
+
+```
 # nodeJS
 
     curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
