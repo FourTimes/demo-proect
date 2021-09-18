@@ -95,4 +95,11 @@ curl xxx.xxx.xxx.xxx:4000/
     sudo systemctl start angular_service
     ss -tulpn | grep 4200
 
+
+```
+
+```bash
+
+curl xxx.xxx.xxx.xxx:4200
+
 ```
